@@ -1,0 +1,102 @@
+.administration {
+    width: 100%;
+    /* height: 90vh; */
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    background-color: #f5f5dc;
+}
+
+.employee {
+    flex-basis: 437px;
+    height: 212px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-grow: 1;
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.39);
+border-radius: 1rem;
+transition: transform 0.5s ease-in;
+}
+.employee:hover{
+    transform: scale(1.07);
+}
+.employeepicture {
+    width: 45%;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+
+.employeepictureimg {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    object-fit: cover;
+}
+
+.employeeinfo {
+    /* width: 100%; */
+    padding: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.employee-name{
+    font-size: 1.5rem;
+    line-height: 26px;
+    color: #000;
+}
+.employee-contacts{
+    /* font-size: 16px; */
+    line-height: 21px;
+    color: #595959;
+}
+.history {
+    /* height: 200vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5dc;
+}
+
+.historycover {
+    width: 100%;
+    height: 33vh;
+    background-image: url(../images/administrationback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+  
+}
+
+.history-title {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    align-self: flex-end;
+}
+
+h2.mainheaders {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.h2first {
+    font-size: 17px;
+    /* text-transform: uppercase; */
+    font-weight: 100;
+    color: #fff;
+    opacity: 1;
+}
+
+.h2-slash {
+    font-weight: 100;
+}
